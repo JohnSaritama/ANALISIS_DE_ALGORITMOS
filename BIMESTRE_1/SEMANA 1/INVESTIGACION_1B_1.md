@@ -1,3 +1,7 @@
+#    TRABAJO DE INVESTIGACION
+Nombre:John Paul Saritama
+
+Fecha:15/04/2025
 
 # 1.1 ALGORITMOS
 ##  ¿QUE ES UN ALGORITMO?
@@ -39,10 +43,14 @@ Un algoritmo es un conjunto ordenado de pasos para resolver un problema. Debe se
 * Un algoritmo debe resolver el problema para todas las entradas válidas.
 
   *Ejemplo básico*:
+  
 Problema: Sumar los primeros n números enteros positivos
+
 Algoritmo 1: Sumar en un bucle del 1 a n
+
 Algoritmo 2: Usar fórmula directa n(n+1)/2
-→ Ambos resuelven el problema, pero el segundo es mucho más eficiente.
+
+* Ambos resuelven el problema, pero el segundo es mucho más eficiente.
 
 ## Tecnicas de abstracción
 - Permite ignorar los detalles innecesarios para enfocarse en la solucion de alto nivel.
