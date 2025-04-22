@@ -16,10 +16,9 @@ Insertion Sort (ordenamiento por inserción) es un algoritmo de ordenación senc
 Supongamos un arreglo A[1...n]. Insertion Sort comienza con el segundo elemento (índice 2), lo compara con los elementos anteriores y lo "inserta" en la posición correcta.
 
 Pseudocódigo (simplificado):
+```java
 
-java
-Copiar
-Editar
+
 para j = 2 hasta n
     clave = A[j]
     i = j - 1
@@ -27,6 +26,7 @@ para j = 2 hasta n
         A[i + 1] = A[i]
         i = i - 1
     A[i + 1] = clave
+``` 
 ## 1.3 Análisis del Rendimiento
 Peor caso (orden inverso): O(n²)
 
