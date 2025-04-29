@@ -1,4 +1,6 @@
 CODIGO EN JAVA:
+```java
+
 
 public class MergeSortHelper {
     public static void merge(int[] A, int p, int q, int r) {
@@ -52,3 +54,4 @@ public class MergeSortHelper {
 }
 
 
+```
