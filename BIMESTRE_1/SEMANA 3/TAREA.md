@@ -1,4 +1,4 @@
-CODIGO EN JAVA:
+  CODIGO EN JAVA:
 ```java
 
 
@@ -61,7 +61,7 @@ import java.util.Scanner;
 
 public class MergeSortHelper {
 
-    // Función para mezclar dos mitades ordenadas del arreglo
+  
     public static void merge(int[] A, int p, int q, int r) {
         int nL = q - p + 1;
         int nR = r - q;
@@ -98,7 +98,7 @@ public class MergeSortHelper {
 
 
 
-    // Función principal para ingresar y ordenar el arreglo
+    // Función principal para ingresar los numeros del arreglo
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
