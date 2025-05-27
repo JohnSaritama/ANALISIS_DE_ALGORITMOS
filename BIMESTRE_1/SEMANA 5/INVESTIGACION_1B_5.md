@@ -39,7 +39,7 @@ T(n) \in \Theta(f(n)) \text{ si existen constantes } c_1, c_2 > 0 \text{ y } n_0
 
 ---
 
-4. Comparación de Funciones de Crecimiento
+## 4. Comparación de Funciones de Crecimiento
 
 Brassard y Bratley analizan el crecimiento de diferentes funciones, desde las más lentas hasta las más rápidas. Algunas funciones comunes en la práctica:
 
@@ -49,13 +49,12 @@ Orden de crecimiento	Ejemplo de algoritmo
 	Búsqueda lineal
 	Mergesort, Heapsort
 	Bubble sort, selección, inserción
-, 	Fuerza bruta en problemas NP
+	Fuerza bruta en problemas NP
 
 
 
----
 
-5. Importancia en el Análisis de Algoritmos
+## 5. Importancia en el Análisis de Algoritmos
 
 El uso de la notación asintótica permite:
 
@@ -70,6 +69,6 @@ Además, ayuda a desarrollar algoritmos escalables, especialmente importantes en
 
 
 
-6. Conclusión
+## 6. Conclusión
 
 La notación asintótica es una piedra angular en el estudio de algoritmos. Su dominio permite diseñar programas más eficientes y sostenibles. Brassard y Bratley ofrecen una explicación clara y rigurosa de estos conceptos, con ejemplos y fundamentos matemáticos, convirtiendo el capítulo 3 en una lectura esencial para cualquier estudiante de ciencias de la computación
