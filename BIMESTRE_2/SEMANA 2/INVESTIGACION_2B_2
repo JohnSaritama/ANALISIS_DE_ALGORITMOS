@@ -1,1 +1,59 @@
 
+# Informe: Algoritmos Voraces – Caminos Mínimos en Grafos
+**Fuente: Brassard & Bratley, 2006 – Sección 6.4**
+
+---
+
+## Introducción
+
+Los problemas de caminos mínimos en grafos tienen una gran importancia en ciencias de la computación, matemáticas aplicadas y áreas como redes, logística y transporte. Encontrar el camino más corto entre dos nodos de un grafo es una tarea fundamental que puede resolverse eficientemente mediante **algoritmos voraces**. En esta sección, se analiza cómo aplicar este tipo de algoritmos para hallar caminos mínimos, con especial enfoque en el **algoritmo de Dijkstra**, uno de los más conocidos.
+
+---
+
+## Objetivos
+
+- Comprender cómo los algoritmos voraces pueden aplicarse a la resolución de caminos mínimos en grafos.
+- Estudiar el funcionamiento y estructura del algoritmo de Dijkstra.
+- Identificar las condiciones bajo las cuales esta estrategia es correcta y eficiente.
+- Reconocer aplicaciones prácticas del cálculo de caminos mínimos.
+
+---
+
+## Desarrollo
+
+### 1. Definición del problema de caminos mínimos
+
+Dado un **grafo ponderado** (es decir, con pesos en las aristas), se busca determinar el **camino más corto desde un nodo origen hacia todos los demás nodos** del grafo. El objetivo es **minimizar la suma total de los pesos (costos o distancias)** del trayecto recorrido.
+
+---
+
+### 2. Estructura de un algoritmo voraz para caminos mínimos
+
+Un enfoque voraz funciona bien si el grafo:
+- Tiene **pesos no negativos**.
+- Tiene una **estructura que permite aplicar decisiones locales óptimas** (ir siempre por la arista más barata en el momento) para construir la solución global.
+
+---
+
+### 3. El algoritmo de Dijkstra
+
+El algoritmo de **Dijkstra** es el principal ejemplo de un **algoritmo voraz que resuelve el problema de caminos mínimos** desde un vértice origen a todos los demás nodos en un grafo ponderado y dirigido (o no dirigido) sin pesos negativos.
+
+#### Pasos principales
+
+1. Inicializar la distancia al nodo origen como 0 y a los demás como infinito.
+2. Marcar todos los nodos como no visitados.
+3. Mientras queden nodos por visitar:
+   - Seleccionar el nodo no visitado con la distancia más corta conocida.
+   - Actualizar la distancia de sus vecinos si el camino pasando por él es más corto.
+   - Marcar el nodo como visitado.
+
+#### Estructura de datos típica
+
+- Una cola de prioridad (heap) para seleccionar rápidamente el nodo con menor distancia.
+- Un arreglo para registrar las distancias mínimas.
+- Un arreglo opcional para reconstruir el camino.
+
+#### Ejemplo simple
+
+Dado el grafo:
