@@ -1,8 +1,8 @@
-# 1 Consulta
+#  TEMA 1 :
 
 ## Fuente: Cormen et al., 2022 – Capítulo 1
 
-### Objetivos:
+## Objetivos:
 
 Comprender qué son los algoritmos y cómo se aplican en la informática.
 
@@ -77,11 +77,11 @@ Comprender algoritmos es fundamental para cualquier científico o ingeniero en c
 
 
 
-# CONSULTA 2: 
+# TEMA 2: 
 
-Capítulo 1 – Preliminares
+## Capítulo 1 – Preliminares
 
-Fuente: Brassard & Bratley, 2006
+## Fuente: Brassard & Bratley, 2006
 
 
 ## Objetivos
@@ -117,7 +117,7 @@ Problemas de optimización: se busca la mejor solución entre muchas. Ej.: encon
 Problemas de búsqueda: encontrar un elemento dentro de una estructura. Ej.: buscar un número en una lista.
 
 
-Notación y complejidad
+ ## Notación y complejidad
 
 La notación Big-O y otras variantes como Omega () y Theta () permiten describir el comportamiento de un algoritmo:
 
@@ -132,7 +132,7 @@ También se introducen recurrencias para analizar algoritmos recursivos. Por eje
 
 T(n) = 2T(n/2) + n
 
-Técnicas para diseñar algoritmos
+## Técnicas para diseñar algoritmos
 
 1. Divide y vencerás: dividir el problema en partes más pequeñas, resolverlas por separado y unir las soluciones. Ej.: Mergesort.
 
@@ -150,9 +150,9 @@ Técnicas para diseñar algoritmos
 Estas estrategias se eligen dependiendo de la naturaleza del problema y el tipo de solución deseada.
 
 
----
 
-Conclusiones
+
+## Conclusiones
 
 Comprender los fundamentos matemáticos y teóricos permite desarrollar algoritmos sólidos y eficientes.
 
