@@ -2,13 +2,13 @@
 # Informe: Algoritmos Voraces – Caminos Mínimos en Grafos
 **Fuente: Brassard & Bratley, 2006 – Sección 6.4**
 
----
+
 
 ## Introducción
 
 Los problemas de caminos mínimos en grafos tienen una gran importancia en ciencias de la computación, matemáticas aplicadas y áreas como redes, logística y transporte. Encontrar el camino más corto entre dos nodos de un grafo es una tarea fundamental que puede resolverse eficientemente mediante **algoritmos voraces**. En esta sección, se analiza cómo aplicar este tipo de algoritmos para hallar caminos mínimos, con especial enfoque en el **algoritmo de Dijkstra**, uno de los más conocidos.
 
----
+
 
 ## Objetivos
 
@@ -17,7 +17,6 @@ Los problemas de caminos mínimos en grafos tienen una gran importancia en cienc
 - Identificar las condiciones bajo las cuales esta estrategia es correcta y eficiente.
 - Reconocer aplicaciones prácticas del cálculo de caminos mínimos.
 
----
 
 ## Desarrollo
 
@@ -25,7 +24,6 @@ Los problemas de caminos mínimos en grafos tienen una gran importancia en cienc
 
 Dado un **grafo ponderado** (es decir, con pesos en las aristas), se busca determinar el **camino más corto desde un nodo origen hacia todos los demás nodos** del grafo. El objetivo es **minimizar la suma total de los pesos (costos o distancias)** del trayecto recorrido.
 
----
 
 ### 2. Estructura de un algoritmo voraz para caminos mínimos
 
@@ -33,7 +31,7 @@ Un enfoque voraz funciona bien si el grafo:
 - Tiene **pesos no negativos**.
 - Tiene una **estructura que permite aplicar decisiones locales óptimas** (ir siempre por la arista más barata en el momento) para construir la solución global.
 
----
+
 
 ### 3. El algoritmo de Dijkstra
 
@@ -67,7 +65,7 @@ Desde A:
 
 Dijkstra seleccionará primero C (1 < 4), lo que muestra cómo **las decisiones locales ayudan a construir caminos óptimos globales**.
 
----
+
 
 ### Condiciones para aplicar Dijkstra correctamente
 
@@ -75,7 +73,7 @@ Dijkstra seleccionará primero C (1 < 4), lo que muestra cómo **las decisiones 
 - **Grafo conexo**: se debe poder alcanzar los nodos desde el origen.
 - **Voracidad válida**: las decisiones locales (escoger el nodo con menor distancia parcial) deben llevar a una solución global correcta.
 
----
+
 
 ### Aplicaciones prácticas
 
@@ -86,7 +84,7 @@ Los caminos mínimos se aplican en numerosos contextos:
 - **Juegos y simulaciones**: navegación de personajes o entidades.
 - **Optimización de transporte**: planificación de entregas o desplazamientos.
 
----
+
 
 ## Conclusiones
 
