@@ -57,3 +57,40 @@ El algoritmo de **Dijkstra** es el principal ejemplo de un **algoritmo voraz que
 #### Ejemplo simple
 
 Dado el grafo:
+A --(4)--> B --(2)--> C
+A --(1)--> C
+
+
+Desde A:
+- El camino más corto a B es A → B con costo 4.
+- El camino más corto a C es A → C directamente, con costo 1 (aunque A → B → C suma 6).
+
+Dijkstra seleccionará primero C (1 < 4), lo que muestra cómo **las decisiones locales ayudan a construir caminos óptimos globales**.
+
+---
+
+### Condiciones para aplicar Dijkstra correctamente
+
+- **Pesos positivos**: el algoritmo no funciona correctamente si hay pesos negativos.
+- **Grafo conexo**: se debe poder alcanzar los nodos desde el origen.
+- **Voracidad válida**: las decisiones locales (escoger el nodo con menor distancia parcial) deben llevar a una solución global correcta.
+
+---
+
+### Aplicaciones prácticas
+
+Los caminos mínimos se aplican en numerosos contextos:
+
+- **GPS y mapas digitales**: encontrar rutas más cortas.
+- **Redes de computadoras**: calcular rutas eficientes de datos.
+- **Juegos y simulaciones**: navegación de personajes o entidades.
+- **Optimización de transporte**: planificación de entregas o desplazamientos.
+
+---
+
+## Conclusiones
+
+- El subtema de caminos mínimos en grafos muestra una aplicación práctica muy clara del enfoque voraz.
+- El algoritmo de Dijkstra es un ejemplo clásico y efectivo de este tipo de algoritmos, siempre que se cumplan las condiciones necesarias (especialmente, pesos no negativos).
+- Este tipo de problemas representa una herramienta clave en áreas como redes, inteligencia artificial, planificación y logística.
+- Aunque voraz, el algoritmo es correcto gracias a la propiedad de subestructura óptima y elección local óptima que presenta el problema.
