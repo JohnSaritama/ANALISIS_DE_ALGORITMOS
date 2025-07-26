@@ -1,4 +1,4 @@
-# The Role of Algorithms in Computing
+# 1 Consulta
 
 ## Fuente: Cormen et al., 2022 – Capítulo 1
 
@@ -73,3 +73,93 @@ Son una tecnología por sí mismos, capaces de transformar datos y procesos.
 El análisis de su eficiencia permite elegir las mejores soluciones posibles, optimizando recursos como el tiempo y la memoria.
 
 Comprender algoritmos es fundamental para cualquier científico o ingeniero en computación.
+
+
+
+
+# CONSULTA 2: 
+
+Capítulo 1 – Preliminares
+
+Fuente: Brassard & Bratley, 2006
+
+
+## Objetivos
+
+Brindar una base teórica sólida para el estudio formal de algoritmos.
+
+Presentar conceptos matemáticos y computacionales clave.
+
+Introducir técnicas y estrategias comunes para diseñar algoritmos eficientes.
+
+
+
+
+
+
+## Fundamentos teóricos
+
+Antes de estudiar algoritmos complejos, es necesario conocer ciertos fundamentos:
+
+Modelos computacionales como la máquina RAM, que simplifican el análisis al representar la computadora como una secuencia de instrucciones.
+
+Conceptos básicos de matemática discreta, como funciones, sumatorias, recursión y lógica, que son herramientas esenciales para analizar algoritmos.
+
+
+## Tipos de problemas algorítmicos
+
+Los algoritmos se diseñan para resolver diferentes tipos de problemas:
+
+Problemas de decisión: la salida es "sí" o "no". Ej.: ¿Existe un camino entre dos nodos?
+
+Problemas de optimización: se busca la mejor solución entre muchas. Ej.: encontrar el camino más corto.
+
+Problemas de búsqueda: encontrar un elemento dentro de una estructura. Ej.: buscar un número en una lista.
+
+
+Notación y complejidad
+
+La notación Big-O y otras variantes como Omega () y Theta () permiten describir el comportamiento de un algoritmo:
+
+: cota superior (peor caso).
+
+: cota inferior (mejor caso).
+
+: comportamiento exacto (caso promedio o general).
+
+
+También se introducen recurrencias para analizar algoritmos recursivos. Por ejemplo, si un algoritmo se llama a sí mismo dividiendo el problema a la mitad, su tiempo puede expresarse como:
+
+T(n) = 2T(n/2) + n
+
+Técnicas para diseñar algoritmos
+
+1. Divide y vencerás: dividir el problema en partes más pequeñas, resolverlas por separado y unir las soluciones. Ej.: Mergesort.
+
+
+2. Programación dinámica: guardar resultados intermedios para no repetir cálculos. Ej.: cálculo de Fibonacci.
+
+
+3. Algoritmos voraces (greedy): tomar la mejor decisión local en cada paso. Ej.: algoritmo de Kruskal para árboles de expansión mínima.
+
+
+4. Backtracking: explorar todas las posibilidades hasta encontrar una solución, retrocediendo cuando se detecta un error. Ej.: resolver el Sudoku.
+
+
+
+Estas estrategias se eligen dependiendo de la naturaleza del problema y el tipo de solución deseada.
+
+
+---
+
+Conclusiones
+
+Comprender los fundamentos matemáticos y teóricos permite desarrollar algoritmos sólidos y eficientes.
+
+El análisis de la complejidad es clave para determinar si un algoritmo es útil en la práctica.
+
+Las técnicas como divide y vencerás o programación dinámica ofrecen formas potentes y comprobadas de construir algoritmos efectivos.
+
+Este capítulo es esencial para tener una base firme antes de adentrarse en el diseño y análisis de algoritmos complejos.
+
+
