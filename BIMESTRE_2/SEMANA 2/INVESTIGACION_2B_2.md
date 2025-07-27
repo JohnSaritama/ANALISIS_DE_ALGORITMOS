@@ -67,7 +67,7 @@ Dijkstra seleccionará primero C (1 < 4), lo que muestra cómo **las decisiones 
 
 
 
-### Condiciones para aplicar Dijkstra correctamente
+## Condiciones para aplicar Dijkstra correctamente
 
 - **Pesos positivos**: el algoritmo no funciona correctamente si hay pesos negativos.
 - **Grafo conexo**: se debe poder alcanzar los nodos desde el origen.
@@ -75,7 +75,7 @@ Dijkstra seleccionará primero C (1 < 4), lo que muestra cómo **las decisiones 
 
 
 
-### Aplicaciones prácticas
+## Aplicaciones prácticas
 
 Los caminos mínimos se aplican en numerosos contextos:
 
