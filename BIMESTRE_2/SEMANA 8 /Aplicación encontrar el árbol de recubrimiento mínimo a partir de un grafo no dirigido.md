@@ -1,4 +1,6 @@
 CODIGO SIN DATOS :
+
+```java
 import java.util.*;
 
 public class DijkstraAppSINDATOS {
@@ -85,12 +87,15 @@ public class DijkstraAppSINDATOS {
     }
 }
 
-
+```
 SALIDA:
 
 <img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/babdad5b-4263-43e6-b483-b87b452d4f51" />
 
 CODIGO INGRESANDO DATOS:
+
+
+```java
 import java.util.*;
 
 public class DijkstraApp {
@@ -179,6 +184,7 @@ public class DijkstraApp {
         grafo.dijkstra(inicio);
     }
 }
+```
 
 SALIDA:
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/12dee6a9-c9fa-4e43-b338-41de9db7e369" />
