@@ -1,5 +1,5 @@
 ALGORITMO SIN DATOS:
-''' java
+```java
 import java.util.*;
 
 public class KruskalSinDatos {
@@ -126,7 +126,7 @@ public class KruskalSinDatos {
 }
 
 
-'''
+```
 
 
 SALIDA:
@@ -137,6 +137,8 @@ SALIDA:
 
 
 ALGORITMO INGRESANDO DATOS:
+
+```java
 import java.util.*;
 
 public class Kruskal {
@@ -257,7 +259,7 @@ public class Kruskal {
 }
 
 
-
+```
 
 SALIDA:
 <img width="1916" height="1011" alt="image" src="https://github.com/user-attachments/assets/983c8f91-c6fa-4f8d-837e-81cefdcbdcf2" />
